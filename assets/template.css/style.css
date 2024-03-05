@@ -1,3 +1,8 @@
+body{
+    background-image: url(../images/campodebatalha.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .fightarea {
     display: flex;
     gap: 20px;
@@ -20,4 +25,25 @@
     border: 1px dotted #999;
     height: 200px;
     overflow-y: scroll;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    color: #fff;
+    font-weight: bold;
+}
+.personagem{
+
+  max-width: 300px;
+
+}
+.personagem img{
+    max-width: 300px;
+}
+.log{
+    color: #fff;
 }
